@@ -1,8 +1,9 @@
 $chicago-maroon: #861F41;
 $burnt-orange: #E5751F;
 $hokie-stone: #75787b;
+$burnt-orange-5op: #fef8f4;
 
 $link-color: $chicago-maroon;
-$sidebar-color: rgba($burnt-orange, 0.05);
+$sidebar-color: $burnt-orange-5op;
 $nav-child-link-color: $hokie-stone;
-$feedback-color: rgba($burnt-orange, 0.1);
+$feedback-color: darken($sidebar-color, 3%);
