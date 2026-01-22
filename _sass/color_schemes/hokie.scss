@@ -1,3 +1,5 @@
+@use "sass:color";
+
 $chicago-maroon: #861F41;
 $burnt-orange: #E5751F;
 $hokie-stone: #75787b;
@@ -5,4 +7,4 @@ $hokie-stone: #75787b;
 $link-color: $chicago-maroon;
 $sidebar-color: rgba($burnt-orange, 0.05);
 $nav-child-link-color: $hokie-stone;
-$feedback-color: darken($sidebar-color, 3%);
+$feedback-color: rgba($burnt-orange, 0.1);
