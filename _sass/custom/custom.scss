@@ -46,3 +46,11 @@ summary {
     }
   }
 }
+
+.btn-maroon {
+  @include btn-color($white, $chicago-maroon);
+}
+
+.btn-orange {
+  @include btn-color($white, $burnt-orange);
+}
