@@ -23,7 +23,7 @@ exclude: ["Gemfile", "Gemfile.lock", "LICENSE"]
 
 # Course information
 semester_start: 2026-01-20
-footer_content: Built with Just the Docs. Heavily modified from Just the Class.
+footer_content: Built with Just the Docs. Modified from Just the Class.
 # aux_links:
 #   Canvas:
 #     - 'https://canvas.vt.edu/'
