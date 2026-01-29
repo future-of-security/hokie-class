@@ -15,7 +15,7 @@ Getting started with Hokie Class is simple.
 
 1. Create a [new repository based on Hokie Class](https://github.com/future-of-security/hokie-class/generate).
 1. Update `_config.yml` and `README.md` with your course information. [Be sure to update the url and baseurl](https://mademistakes.com/mastering-jekyll/site-url-baseurl/).
-1. Configure a [publishing source for GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site). Your course website is now live!
+1. Configure a [publishing source for GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-with-a-custom-github-actions-workflow). Your course website is now live!
 1. Edit and create `.md` [Markdown files](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) to add more content pages.
 
 ### Local development environment
