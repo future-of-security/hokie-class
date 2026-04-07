@@ -18,7 +18,7 @@ description: Another class website built with Just the Docs
 author: Hailong Zhang
 baseurl: '/hokie-class' # the subpath of your site, e.g. /blog
 url: 'http://future-of-security.github.io' # the base hostname & protocol for your site, e.g. http://example.com
-exclude: ["Gemfile", "Gemfile.lock", "LICENSE"]
+exclude: ["Gemfile", "Gemfile.lock", "LICENSE", ".bundle", "vendor"]
 # logo:
 
 # Course information
@@ -34,7 +34,7 @@ callouts:
     color: blue
 
 # Theme settings
-remote_theme: just-the-docs/just-the-docs@v0.11.1
+theme: just-the-docs
 color_scheme: hokie
 search_enabled: true
 heading_anchors: true

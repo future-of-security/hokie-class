@@ -21,6 +21,13 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
+      - name: Restore Bundler cache
+        uses: actions/cache@v4
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-bundler-${{ hashFiles('Gemfile', 'Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-bundler-
       - name: Build site inside devcontainer
         uses: devcontainers/ci@v0.3
         env:

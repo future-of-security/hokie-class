@@ -17,6 +17,7 @@ command -v jekyll >/dev/null || {
 export JEKYLL_ENV=production
 
 echo "[build] Configuring Bundler for production (local only)"
+bundle config set --local path "vendor/bundle"
 bundle config set --local without "development test"
 
 echo "[build] Installing Ruby dependencies"
